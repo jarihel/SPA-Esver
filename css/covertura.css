@@ -1,0 +1,49 @@
+img {
+    position: absolute;
+    top: 20px;
+    right: 350px;
+    height: 360px;
+    width: 200px;
+}
+
+.btn2 {
+    position: absolute;
+    left: 458px;
+    top: 110px;
+    border: 1px solid #006688;
+    /*anchura, estilo y color borde*/
+    padding: 5px;
+    /*espacio alrededor texto*/
+    background-color: #006688;
+    /*color botón*/
+    color: #ffffff;
+    /*color texto*/
+    border-radius: 10px;
+    /*bordes redondos*/
+}
+
+.abs {
+    position: absolute;
+}
+
+
+
+
+.covertura {
+    padding: 10px;
+    position: absolute;    
+    right: 1%;
+    width: 70%;   
+    padding: 5px;
+    box-shadow: 4px 4px 10px rgba(26, 25, 25, 0.712);
+    border: 3px solid black;
+    top: 25px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7) !important;
+    height: 450px;
+    margin-left: 1%;
+    border-radius: 10px;
+    vertical-align: middle;
+    opacity: 1;
+    transition: opacity 0.9s;
+}

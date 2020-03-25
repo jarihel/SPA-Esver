@@ -1,0 +1,278 @@
+
+/*-----------------------------------------------------------------------------*/
+/*clase principal de empresa/
+/*-----------------------------------------------------------------------------*/
+@media only screen and (min-width: 768px){
+.abrir {
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 2px solid rgba(72, 114, 128, 0.938);
+    top: 25px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7) !important;
+    height: 445px;
+    margin-left: 1%;
+    border-radius: 40px;
+    
+    position: absolute;
+    width: 50%;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgba(26, 25, 25, 0.712);
+    box-sizing: border-box;
+    text-align: justify;
+   
+    opacity: 1 !important;
+    
+    transition: opacity 1s ;
+    
+    
+   
+}
+
+
+
+
+
+#slides .slide {
+   text-align: center ;
+   
+   font-size: 20px;
+    width: 33.33%;
+    float:left;
+    display: flex;
+   position: relative;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    height: 100%;
+   
+ }
+}
+
+/*-----------------------------------------------------------------------------*/
+/*Slider de maquinas*/
+/*-----------------------------------------------------------------------------*/
+.maquinarias-inner{
+   padding: 5px;  
+  
+   top: 10px;
+   justify-content:center;
+}
+.img-maquinas{
+   
+   overflow: hidden;
+   
+   width: 100%;   
+   height: 250px;
+   border-radius: 30px;
+}
+
+/*-----------------------------------------------------------------------------*/
+/*Slider de capacitaciones*/
+/*-----------------------------------------------------------------------------*/
+.capacitaciones-inner {   
+   text-align: justify;
+   position: absolute;
+   margin-top: 10px;   
+   margin-right:  10px;
+   left: 10px;
+   right: 10px; 
+}
+.img-capacitacion{
+   height: 200px;
+   width: 100%;
+   overflow: hidden;
+   align-content: center;
+   position: relative;
+   border-radius: 30px;
+}
+img { 
+   width: 100%;
+}
+/*-----------------------------------------------------------------------------*/
+/*quienes*/
+/*-----------------------------------------------------------------------------*/
+.quienes-inner {
+   text-align: justify;
+   position: absolute;
+   margin-top: 10px;   
+   margin-right:  10px;
+   left: 10px;
+   right: 10px; 
+  
+
+}
+/*-----------------------------------------------------------------------------*/
+/*Slider de quienes
+/*-----------------------------------------------------------------------------*/
+#slider {
+   width: 100%;
+   max-width: 100%;
+  position: relative;
+   
+   }
+ #overflow {
+  
+   width: 100%;
+   overflow: hidden;
+   border-radius: 30px;
+   border: 2px solid rgba(55, 87, 97, 0.979);
+   position: relative;
+   
+   vertical-align: middle;
+}
+#slides .inner {
+  background: rgba(0, 0, 0, 0.6) ;
+  animation: cambiar 30s infinite;
+  transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  width: 300%;
+  line-height: 0;
+  
+  height: 200px;
+
+}
+@keyframes cambiar{
+ 0%,30% {    
+     margin-left: 0;
+     color: rgba(255, 255, 255, 0.925);
+     
+  }
+  43%,66%{
+     margin-left: -100%;
+     color: rgba(255, 255, 255, 0.925);
+  }
+  79%,100% { 
+     margin-left: -200%;
+     color: rgba(255, 255, 255, 0.925);
+  }
+}
+
+
+/*-----------------------------------------------------------------------------*/
+/*Listas de politicas
+/*-----------------------------------------------------------------------------*/
+.ul-politicas {
+   overflow-x: hidden;
+   overflow-y: auto;
+   width: 100%;
+   border-radius: 40px;
+   border: 2px solid rgba(55, 87, 97, 0.979);
+   position: relative;
+   height: 210px;
+   padding: 20px;
+   }
+.ul-politicas::-webkit-scrollbar {
+   width: 5px;   
+  height: 150px;   
+}
+.ul-politicas::-webkit-scrollbar-thumb{
+   background: #006688;
+   border-radius: 20px;   
+}
+.ul-politicas::-webkit-scrollbar-track {
+    border-radius: 20px;
+}
+.politicas-inner { 
+   text-align: justify;
+   position: absolute;
+   margin-top: 10px;   
+   margin-right:  10px;
+   left: 10px;
+   right: 10px; 
+   
+
+}
+/*-----------------------------------------------------------------------------*/
+/* */
+/*-----------------------------------------------------------------------------*/
+
+@media screen and (max-width: 767px) {
+   #slides .slide {
+      text-align: center ;      
+      font-size: 15px;
+      width: 33.33%;
+      float:left;
+      display: flex;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      vertical-align: middle;
+      height: 90%;      
+    }
+   .abrir {
+      overflow-x: hidden;
+      overflow-y: auto;
+      border: 2px solid rgba(72, 114, 128, 0.938);
+      top: 1%;
+      color: #fff;
+      background: rgba(0, 0, 0, 0.7) !important;
+      height: 430px;
+      margin-left: 1%;
+      border-radius: 20px;
+      vertical-align: middle;
+      position: absolute;
+      opacity: 1;
+      transition: opacity 0.9s;     
+      padding: 10px;
+      box-shadow: 4px 4px 10px rgba(26, 25, 25, 0.712);
+      box-sizing: border-box;
+      text-align: justify;
+      
+  }
+  
+  #slides {
+          margin: 0 auto;
+  }
+  #slides .inner {
+    height: 180px !important; 
+ }
+ h1 {
+   font-size: 20px !important;
+   text-align: center;
+   
+}
+.img-capacitacion{
+   height: 150px;
+   width: 100%;
+   overflow: hidden;
+   align-content: center;
+   position: relative;
+   border-radius: 30px;
+   
+}
+.capacitaciones-inner{
+   margin: 0;
+}
+.ul-politicas {
+   height: 190px !important;
+   padding: 20px;
+   }
+   .img-maquinas{
+      position: absolute;
+      overflow: hidden;
+      left: 10%;
+      width: 80%;   
+      height: 170px;
+      border-radius: 30px;
+   }
+   .maquinarias-inner{
+      
+      width: 100%;
+      box-sizing: border-box;
+      position: relative;
+      
+   
+   }
+}
+
+.servicio-inner{
+   
+   opacity: 1;
+   transition: opacity 2s linear;
+
+
+}
+
+
+
+ 

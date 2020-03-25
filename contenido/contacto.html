@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="../css/contacto.css" type="text/css">
+
+<div class="contacto-inner">
+    <form class="transition" method="post" action="codigo.php" enctype="multipart/form-data"  id = "form">
+        <h2>CONTACTO</h2>
+        <input type="text" name="nombre" placeholder="Nombre" id="nombre" required >
+        <input type="mail" name="email" placeholder="E-mail" id="email" required>
+        <input type="text" name="telefono" placeholder="Telefono" id="telefono" required>
+        <textarea name="mensaje" placeholder="Escriba aqui su consulta" id="mensaje" required></textarea>
+        <input type="" value="Enviar" id="btn" onclick="reload()">
+        <input type="reset" value="Limpiar">
+    </form>
+    <img class="contacto-img" src="../image/hombresito2.jpg" alt="hombresito" srcset="">
+
+
+</div>
+<script>
+   function reload() {
+       alert('Mensaje enviado');
+   } 
+</script>

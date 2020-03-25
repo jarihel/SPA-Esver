@@ -1,0 +1,30 @@
+img {
+    position: absolute;
+    top: 20px;
+    right: 350px;
+    height: 360px;
+    width: 200px;
+}
+
+.btn2 {
+    position: absolute;
+    left: 458px;
+    top: 110px;
+    border: 1px solid #006688;
+    /*anchura, estilo y color borde*/
+    padding: 5px;
+    /*espacio alrededor texto*/
+    background-color: #006688;
+    /*color botón*/
+    color: #ffffff;
+    /*color texto*/
+    border-radius: 10px;
+    /*bordes redondos*/
+}
+
+.abs {
+    position: absolute;
+}
+
+
+
